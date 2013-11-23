@@ -1,6 +1,7 @@
 body {
 	font-family: Open Sans;
 	text-align: center;
+	background-color: #fafafa;
 }
 
 * {
@@ -14,6 +15,7 @@ body {
 	width: 30%;
 	list-style-type: none;
 	margin-left: 35%;
+	background-color: #fff;
 }
 
 .highlightReel .details {
@@ -35,12 +37,19 @@ body {
 	text-align: center;
 }
 
+li:hover {
+	background-color: #eee;
+}
+
 img {
 	margin: 0.5em;
+	border: 1px #ccc solid;
 }
 
 .title {
 	font-weight: bold;
+	width: 100%;
+	float: left;
 }
 
 .likes:after {
