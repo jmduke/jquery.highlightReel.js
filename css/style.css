@@ -1,0 +1,52 @@
+body {
+	font-family: Open Sans;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.highlightReel {
+	border: 1px solid #ccc;
+	float: left;
+	padding-left: 0;
+	width: 30%;
+	list-style-type: none;
+	margin-left: 35%;
+}
+
+.highlightReel .details {
+	border-bottom: 1px solid #ccc;
+	padding: 1em;
+	float: left;
+}
+
+.highlightReel .stats {
+	width: 100%;
+	float: left;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.highlightReel .stats li {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+img {
+	margin: 0.5em;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.likes:after {
+	content: " likes";
+}
+
+.views:after {
+	content: " views";
+}
