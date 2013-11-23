@@ -34,7 +34,7 @@ Licensed under the MIT license
       }
 
       var username = settings.username;
-      var url = "http://api.dribbble.com/players/" + username + "/shots?callback=?";
+      var url = "https://api.dribbble.com/players/" + username + "/shots?callback=?";
 
       $.getJSON(url, function (data) {
 
