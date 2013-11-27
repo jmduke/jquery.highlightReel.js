@@ -21,7 +21,6 @@ Licensed under the MIT license
       linked    : true,
       stats     : true,
 
-
     }, settings = $.extend({}, defaults, options);
 
     this.each(function () {
@@ -33,6 +32,7 @@ Licensed under the MIT license
         return false;
       }
 
+      // Generate the URL for the call to Dribbble.
       var username = settings.username;
       var url = "https://api.dribbble.com/players/" + username + "/shots?callback=?";
 
@@ -41,11 +41,8 @@ Licensed under the MIT license
         var limit = settings.count;
         var list = $('<ul class="highlightReel"></ul>').replaceAll(el);
 
-        for (var i = 0; i < limit; i++) {
-
-          list.append('<li class="details" />');
-
-        };
+        // Add the number of list items we'll be needing later on.
+        list.append(Array(limit).join('<li class="details" />'));
 
         if (settings.stats === true) {
 
