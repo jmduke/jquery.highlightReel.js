@@ -34,7 +34,7 @@ Licensed under the MIT license
 
       // Generate the URL for the call to Dribbble.
       var username = settings.username;
-      var url = "https://api.dribbble.com/players/" + username + "/shots?callback=?";
+      var url = "//api.dribbble.com/players/" + username + "/shots?callback=?";
 
       $.getJSON(url, function (data) {
 
