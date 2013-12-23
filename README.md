@@ -2,7 +2,7 @@
 
 A simple li'l plugin to fetch your latest shots from [Dribbble](www.dribbble.com).
 
-Check out the demo [here](https://rawgithub.com/jmduke/jquery.highlightReel.js/master/test.html).
+Check out the demo [here](http://rawgithub.com/jmduke/jquery.highlightReel.js/master/test.html).
 
 This plugin should be treated as a 0.1.0, if that: the main functionality is all baked in, but I'm planning a decent amount of more customization.
 
